@@ -1,0 +1,297 @@
+>>>>>>>>>>>>>>>>>>>>>>>>>
+Start running itmv tests.
+>>>>>>>>>>>>>>>>>>>>>>>>>
+
+Test 1:n=4, t=1, 1x2 threads:
+With totally 1*2 threads, matrix size being 4, t being 1
+Time cost in seconds: 0.113857
+Final error (|y-x|): 1.750000.
+# of iterations executed: 1.
+Final y[0]=1.750000. y[n-1]=1.750000
+Test 1:n=4, t=1, 1x2 threads i=0  Expected 1.750000 Actual 1.750000
+Test 1:n=4, t=1, 1x2 threads i=1  Expected 1.750000 Actual 1.750000
+Test 1:n=4, t=1, 1x2 threads i=2  Expected 1.750000 Actual 1.750000
+Test 1:n=4, t=1, 1x2 threads i=3  Expected 1.750000 Actual 1.750000
+
+Test 2:n=4, t=2, 1x2 threads:
+With totally 1*2 threads, matrix size being 4, t being 2
+Time cost in seconds: 0.000591
+Final error (|y-x|): 1.312500.
+# of iterations executed: 2.
+Final y[0]=0.437500. y[n-1]=0.437500
+Test 2:n=4, t=2, 1x2 threads i=0  Expected 0.437500 Actual 0.437500
+Test 2:n=4, t=2, 1x2 threads i=1  Expected 0.437500 Actual 0.437500
+Test 2:n=4, t=2, 1x2 threads i=2  Expected 0.437500 Actual 0.437500
+Test 2:n=4, t=2, 1x2 threads i=3  Expected 0.437500 Actual 0.437500
+
+Test 3:n=8, t=1, 1x2 threads:
+With totally 1*2 threads, matrix size being 8, t being 1
+Time cost in seconds: 0.000700
+Final error (|y-x|): 1.875000.
+# of iterations executed: 1.
+Final y[0]=1.875000. y[n-1]=1.875000
+Test 3:n=8, t=1, 1x2 threads i=0  Expected 1.875000 Actual 1.875000
+Test 3:n=8, t=1, 1x2 threads i=1  Expected 1.875000 Actual 1.875000
+Test 3:n=8, t=1, 1x2 threads i=2  Expected 1.875000 Actual 1.875000
+Test 3:n=8, t=1, 1x2 threads i=3  Expected 1.875000 Actual 1.875000
+Test 3:n=8, t=1, 1x2 threads i=4  Expected 1.875000 Actual 1.875000
+Test 3:n=8, t=1, 1x2 threads i=5  Expected 1.875000 Actual 1.875000
+Test 3:n=8, t=1, 1x2 threads i=6  Expected 1.875000 Actual 1.875000
+Test 3:n=8, t=1, 1x2 threads i=7  Expected 1.875000 Actual 1.875000
+
+Test 4:n=8, t=2, 1x2 threads:
+With totally 1*2 threads, matrix size being 8, t being 2
+Time cost in seconds: 0.000599
+Final error (|y-x|): 1.640625.
+# of iterations executed: 2.
+Final y[0]=0.234375. y[n-1]=0.234375
+Test 4:n=8, t=2, 1x2 threads i=0  Expected 0.234375 Actual 0.234375
+Test 4:n=8, t=2, 1x2 threads i=1  Expected 0.234375 Actual 0.234375
+Test 4:n=8, t=2, 1x2 threads i=2  Expected 0.234375 Actual 0.234375
+Test 4:n=8, t=2, 1x2 threads i=3  Expected 0.234375 Actual 0.234375
+Test 4:n=8, t=2, 1x2 threads i=4  Expected 0.234375 Actual 0.234375
+Test 4:n=8, t=2, 1x2 threads i=5  Expected 0.234375 Actual 0.234375
+Test 4:n=8, t=2, 1x2 threads i=6  Expected 0.234375 Actual 0.234375
+Test 4:n=8, t=2, 1x2 threads i=7  Expected 0.234375 Actual 0.234375
+
+Test 5:n=4, t=1, 1x2 threads/shared mem:
+With totally 1*2 threads, matrix size being 4, t being 1
+Time cost in seconds: 0.000585
+Final error (|y-x|): 1.750000.
+# of iterations executed: 1.
+Final y[0]=1.750000. y[n-1]=1.750000
+Test 5:n=4, t=1, 1x2 threads/shared mem i=0  Expected 1.750000 Actual 1.750000
+Test 5:n=4, t=1, 1x2 threads/shared mem i=1  Expected 1.750000 Actual 1.750000
+Test 5:n=4, t=1, 1x2 threads/shared mem i=2  Expected 1.750000 Actual 1.750000
+Test 5:n=4, t=1, 1x2 threads/shared mem i=3  Expected 1.750000 Actual 1.750000
+
+Test 6:n=4, t=2, 1x2 threads/shared mem:
+With totally 1*2 threads, matrix size being 4, t being 2
+Time cost in seconds: 0.000683
+Final error (|y-x|): 1.312500.
+# of iterations executed: 2.
+Final y[0]=0.437500. y[n-1]=0.437500
+Test 6:n=4, t=2, 1x2 threads/shared mem i=0  Expected 0.437500 Actual 0.437500
+Test 6:n=4, t=2, 1x2 threads/shared mem i=1  Expected 0.437500 Actual 0.437500
+Test 6:n=4, t=2, 1x2 threads/shared mem i=2  Expected 0.437500 Actual 0.437500
+Test 6:n=4, t=2, 1x2 threads/shared mem i=3  Expected 0.437500 Actual 0.437500
+
+Test 7:n=8, t=1, 1x2 threads/shared  with shared mem:
+With totally 1*2 threads, matrix size being 8, t being 1
+Time cost in seconds: 0.000602
+Final error (|y-x|): 1.875000.
+# of iterations executed: 1.
+Final y[0]=1.875000. y[n-1]=1.875000
+Test 7:n=8, t=1, 1x2 threads/shared  with shared mem i=0  Expected 1.875000 Actual 1.875000
+Test 7:n=8, t=1, 1x2 threads/shared  with shared mem i=1  Expected 1.875000 Actual 1.875000
+Test 7:n=8, t=1, 1x2 threads/shared  with shared mem i=2  Expected 1.875000 Actual 1.875000
+Test 7:n=8, t=1, 1x2 threads/shared  with shared mem i=3  Expected 1.875000 Actual 1.875000
+Test 7:n=8, t=1, 1x2 threads/shared  with shared mem i=4  Expected 1.875000 Actual 1.875000
+Test 7:n=8, t=1, 1x2 threads/shared  with shared mem i=5  Expected 1.875000 Actual 1.875000
+Test 7:n=8, t=1, 1x2 threads/shared  with shared mem i=6  Expected 1.875000 Actual 1.875000
+Test 7:n=8, t=1, 1x2 threads/shared  with shared mem i=7  Expected 1.875000 Actual 1.875000
+
+Test 8:n=8, t=2, 1x2 threads/shared mem:
+With totally 1*2 threads, matrix size being 8, t being 2
+Time cost in seconds: 0.000612
+Final error (|y-x|): 1.640625.
+# of iterations executed: 2.
+Final y[0]=0.234375. y[n-1]=0.234375
+Test 8:n=8, t=2, 1x2 threads/shared mem i=0  Expected 0.234375 Actual 0.234375
+Test 8:n=8, t=2, 1x2 threads/shared mem i=1  Expected 0.234375 Actual 0.234375
+Test 8:n=8, t=2, 1x2 threads/shared mem i=2  Expected 0.234375 Actual 0.234375
+Test 8:n=8, t=2, 1x2 threads/shared mem i=3  Expected 0.234375 Actual 0.234375
+Test 8:n=8, t=2, 1x2 threads/shared mem i=4  Expected 0.234375 Actual 0.234375
+Test 8:n=8, t=2, 1x2 threads/shared mem i=5  Expected 0.234375 Actual 0.234375
+Test 8:n=8, t=2, 1x2 threads/shared mem i=6  Expected 0.234375 Actual 0.234375
+Test 8:n=8, t=2, 1x2 threads/shared mem i=7  Expected 0.234375 Actual 0.234375
+GS GPU  Test matrix type 0, size n=4, t=5
+GS GPU  check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  check y[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  check d[0-3] are 1.750000, 1.750000, 1.750000, 1.750000
+GS GPU  check A[0][0-3] are 0.000000, -0.250000, -0.250000, -0.250000
+GS GPU  check A[1][0-3] are -0.250000, 0.000000, -0.250000, -0.250000
+GS GPU  check A[2][0-3] are -0.250000, -0.250000, 0.000000, -0.250000
+GS GPU  check A[3][0-3] are -0.250000, -0.250000, -0.250000, 0.000000
+GS GPU  0 check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  0 check y[0-3] 1.750000, 1.312500, 0.984375, 0.738281
+GS GPU  1 check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  1 check y[0-3] 0.991211, 1.071533, 1.049744, 0.971878
+GS GPU  2 check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  2 check y[0-3] 0.976711, 1.000417, 1.012748, 1.002531
+GS GPU  3 check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  3 check y[0-3] 0.996076, 0.997161, 1.001058, 1.001426
+GS GPU  4 check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  4 check y[0-3] 1.000089, 0.999357, 0.999782, 1.000193
+
+Test 8a:n=4, t=1, 1x1 threads/Gauss-Seidel:
+With totally 1*1 threads, matrix size being 4, t being 1
+Time cost in seconds: 0.003202
+Final error (|y-x|): 1.000193.
+# of iterations executed: 5.
+Final y[0]=1.000089. y[n-1]=1.000193
+GS host  Test matrix type 0, size n=4, t=5
+GS host  check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS host  check y[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS host  check d[0-3] are 1.750000, 1.750000, 1.750000, 1.750000
+GS host  check A[0][0-3] are 0.000000, -0.250000, -0.250000, -0.250000
+GS host  check A[1][0-3] are -0.250000, 0.000000, -0.250000, -0.250000
+GS host  check A[2][0-3] are -0.250000, -0.250000, 0.000000, -0.250000
+GS host  check A[3][0-3] are -0.250000, -0.250000, -0.250000, 0.000000
+GS host  0 check x[0-3] 1.750000, 1.312500, 0.984375, 0.738281
+GS host  0 check y[0-3] 1.750000, 1.312500, 0.984375, 0.738281
+GS host  1 check x[0-3] 0.991211, 1.071533, 1.049744, 0.971878
+GS host  1 check y[0-3] 0.991211, 1.071533, 1.049744, 0.971878
+GS host  2 check x[0-3] 0.976711, 1.000417, 1.012748, 1.002531
+GS host  2 check y[0-3] 0.976711, 1.000417, 1.012748, 1.002531
+GS host  3 check x[0-3] 0.996076, 0.997161, 1.001058, 1.001426
+GS host  3 check y[0-3] 0.996076, 0.997161, 1.001058, 1.001426
+Test 8a:n=4, t=1, 1x1 threads/Gauss-Seidel i=0  Expected 1.000089 Actual 1.000089
+Test 8a:n=4, t=1, 1x1 threads/Gauss-Seidel i=1  Expected 0.999357 Actual 0.999357
+Test 8a:n=4, t=1, 1x1 threads/Gauss-Seidel i=2  Expected 0.999782 Actual 0.999782
+Test 8a:n=4, t=1, 1x1 threads/Gauss-Seidel i=3  Expected 1.000193 Actual 1.000193
+GS GPU  Test matrix type 0, size n=4, t=5
+GS GPU  check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  check y[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  check d[0-3] are 1.750000, 1.750000, 1.750000, 1.750000
+GS GPU  check A[0][0-3] are 0.000000, -0.250000, -0.250000, -0.250000
+GS GPU  check A[1][0-3] are -0.250000, 0.000000, -0.250000, -0.250000
+GS GPU  check A[2][0-3] are -0.250000, -0.250000, 0.000000, -0.250000
+GS GPU  check A[3][0-3] are -0.250000, -0.250000, -0.250000, 0.000000
+GS GPU  0 check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  0 check y[0-3] 1.750000, 1.312500, 0.984375, 0.738281
+GS GPU  1 check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  1 check y[0-3] 0.991211, 1.071533, 1.049744, 0.971878
+GS GPU  2 check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  2 check y[0-3] 0.976711, 1.000417, 1.012748, 1.002531
+GS GPU  3 check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  3 check y[0-3] 0.996076, 0.997161, 1.001058, 1.001426
+GS GPU  4 check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  4 check y[0-3] 1.000089, 0.999357, 0.999782, 1.000193
+
+Test 8b:n=4, t=2, 1x1 threads/Gauss-Seidel:
+With totally 1*1 threads, matrix size being 4, t being 2
+Time cost in seconds: 0.002491
+Final error (|y-x|): 1.000193.
+# of iterations executed: 5.
+Final y[0]=1.000089. y[n-1]=1.000193
+GS host  Test matrix type 0, size n=4, t=5
+GS host  check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS host  check y[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS host  check d[0-3] are 1.750000, 1.750000, 1.750000, 1.750000
+GS host  check A[0][0-3] are 0.000000, -0.250000, -0.250000, -0.250000
+GS host  check A[1][0-3] are -0.250000, 0.000000, -0.250000, -0.250000
+GS host  check A[2][0-3] are -0.250000, -0.250000, 0.000000, -0.250000
+GS host  check A[3][0-3] are -0.250000, -0.250000, -0.250000, 0.000000
+GS host  0 check x[0-3] 1.750000, 1.312500, 0.984375, 0.738281
+GS host  0 check y[0-3] 1.750000, 1.312500, 0.984375, 0.738281
+GS host  1 check x[0-3] 0.991211, 1.071533, 1.049744, 0.971878
+GS host  1 check y[0-3] 0.991211, 1.071533, 1.049744, 0.971878
+GS host  2 check x[0-3] 0.976711, 1.000417, 1.012748, 1.002531
+GS host  2 check y[0-3] 0.976711, 1.000417, 1.012748, 1.002531
+GS host  3 check x[0-3] 0.996076, 0.997161, 1.001058, 1.001426
+GS host  3 check y[0-3] 0.996076, 0.997161, 1.001058, 1.001426
+Test 8b:n=4, t=2, 1x1 threads/Gauss-Seidel i=0  Expected 1.000089 Actual 1.000089
+Test 8b:n=4, t=2, 1x1 threads/Gauss-Seidel i=1  Expected 0.999357 Actual 0.999357
+Test 8b:n=4, t=2, 1x1 threads/Gauss-Seidel i=2  Expected 0.999782 Actual 0.999782
+Test 8b:n=4, t=2, 1x1 threads/Gauss-Seidel i=3  Expected 1.000193 Actual 1.000193
+GS GPU  Test matrix type 0, size n=8, t=5
+GS GPU  check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  check y[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  check d[0-3] are 1.875000, 1.875000, 1.875000, 1.875000
+GS GPU  check A[0][0-3] are 0.000000, -0.125000, -0.125000, -0.125000
+GS GPU  check A[1][0-3] are -0.125000, 0.000000, -0.125000, -0.125000
+GS GPU  check A[2][0-3] are -0.125000, -0.125000, 0.000000, -0.125000
+GS GPU  check A[3][0-3] are -0.125000, -0.125000, -0.125000, 0.000000
+GS GPU  0 check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  0 check y[0-3] 1.875000, 1.640625, 1.435547, 1.256104
+GS GPU  1 check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  1 check y[0-3] 0.878642, 0.973890, 1.031597, 1.059660
+GS GPU  2 check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  2 check y[0-3] 0.975473, 0.975275, 0.982315, 0.991983
+GS GPU  3 check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  3 check y[0-3] 1.003152, 0.999668, 0.997499, 0.996809
+GS GPU  4 check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  4 check y[0-3] 1.001155, 1.000969, 1.000535, 1.000069
+
+Test 8c:n=8, t=1, 1x1 threads/Gauss-Seidel:
+With totally 1*1 threads, matrix size being 8, t being 1
+Time cost in seconds: 0.002490
+Final error (|y-x|): 1.001155.
+# of iterations executed: 5.
+Final y[0]=1.001155. y[n-1]=0.999790
+GS host  Test matrix type 0, size n=8, t=5
+GS host  check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS host  check y[0-3] -0.000000, 0.000000, 0.000000, 0.000000
+GS host  check d[0-3] are 1.875000, 1.875000, 1.875000, 1.875000
+GS host  check A[0][0-3] are 0.000000, -0.125000, -0.125000, -0.125000
+GS host  check A[1][0-3] are -0.125000, 0.000000, -0.125000, -0.125000
+GS host  check A[2][0-3] are -0.125000, -0.125000, 0.000000, -0.125000
+GS host  check A[3][0-3] are -0.125000, -0.125000, -0.125000, 0.000000
+GS host  0 check x[0-3] 1.875000, 1.640625, 1.435547, 1.256104
+GS host  0 check y[0-3] 1.875000, 1.640625, 1.435547, 1.256104
+GS host  1 check x[0-3] 0.878642, 0.973890, 1.031597, 1.059660
+GS host  1 check y[0-3] 0.878642, 0.973890, 1.031597, 1.059660
+GS host  2 check x[0-3] 0.975473, 0.975275, 0.982315, 0.991983
+GS host  2 check y[0-3] 0.975473, 0.975275, 0.982315, 0.991983
+GS host  3 check x[0-3] 1.003152, 0.999668, 0.997499, 0.996809
+GS host  3 check y[0-3] 1.003152, 0.999668, 0.997499, 0.996809
+Test 8c:n=8, t=1, 1x1 threads/Gauss-Seidel i=0  Expected 1.001155 Actual 1.001155
+Test 8c:n=8, t=1, 1x1 threads/Gauss-Seidel i=1  Expected 1.000969 Actual 1.000969
+Test 8c:n=8, t=1, 1x1 threads/Gauss-Seidel i=2  Expected 1.000535 Actual 1.000535
+Test 8c:n=8, t=1, 1x1 threads/Gauss-Seidel i=3  Expected 1.000069 Actual 1.000069
+Test 8c:n=8, t=1, 1x1 threads/Gauss-Seidel i=4  Expected 0.999728 Actual 0.999728
+Test 8c:n=8, t=1, 1x1 threads/Gauss-Seidel i=5  Expected 0.999587 Actual 0.999587
+Test 8c:n=8, t=1, 1x1 threads/Gauss-Seidel i=6  Expected 0.999636 Actual 0.999636
+Test 8c:n=8, t=1, 1x1 threads/Gauss-Seidel i=7  Expected 0.999790 Actual 0.999790
+GS GPU  Test matrix type 0, size n=8, t=5
+GS GPU  check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  check y[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  check d[0-3] are 1.875000, 1.875000, 1.875000, 1.875000
+GS GPU  check A[0][0-3] are 0.000000, -0.125000, -0.125000, -0.125000
+GS GPU  check A[1][0-3] are -0.125000, 0.000000, -0.125000, -0.125000
+GS GPU  check A[2][0-3] are -0.125000, -0.125000, 0.000000, -0.125000
+GS GPU  check A[3][0-3] are -0.125000, -0.125000, -0.125000, 0.000000
+GS GPU  0 check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  0 check y[0-3] 1.875000, 1.640625, 1.435547, 1.256104
+GS GPU  1 check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  1 check y[0-3] 0.878642, 0.973890, 1.031597, 1.059660
+GS GPU  2 check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  2 check y[0-3] 0.975473, 0.975275, 0.982315, 0.991983
+GS GPU  3 check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  3 check y[0-3] 1.003152, 0.999668, 0.997499, 0.996809
+GS GPU  4 check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS GPU  4 check y[0-3] 1.001155, 1.000969, 1.000535, 1.000069
+
+Test 8d:n=8, t=2, 1x1 threads/Gauss-Seidel:
+With totally 1*1 threads, matrix size being 8, t being 2
+Time cost in seconds: 0.002550
+Final error (|y-x|): 1.001155.
+# of iterations executed: 5.
+Final y[0]=1.001155. y[n-1]=0.999790
+GS host  Test matrix type 0, size n=8, t=5
+GS host  check x[0-3] 0.000000, 0.000000, 0.000000, 0.000000
+GS host  check y[0-3] 0.000000, 0.000000, 1.000535, 1.000069
+GS host  check d[0-3] are 1.875000, 1.875000, 1.875000, 1.875000
+GS host  check A[0][0-3] are 0.000000, -0.125000, -0.125000, -0.125000
+GS host  check A[1][0-3] are -0.125000, 0.000000, -0.125000, -0.125000
+GS host  check A[2][0-3] are -0.125000, -0.125000, 0.000000, -0.125000
+GS host  check A[3][0-3] are -0.125000, -0.125000, -0.125000, 0.000000
+GS host  0 check x[0-3] 1.875000, 1.640625, 1.435547, 1.256104
+GS host  0 check y[0-3] 1.875000, 1.640625, 1.435547, 1.256104
+GS host  1 check x[0-3] 0.878642, 0.973890, 1.031597, 1.059660
+GS host  1 check y[0-3] 0.878642, 0.973890, 1.031597, 1.059660
+GS host  2 check x[0-3] 0.975473, 0.975275, 0.982315, 0.991983
+GS host  2 check y[0-3] 0.975473, 0.975275, 0.982315, 0.991983
+GS host  3 check x[0-3] 1.003152, 0.999668, 0.997499, 0.996809
+GS host  3 check y[0-3] 1.003152, 0.999668, 0.997499, 0.996809
+Test 8d:n=8, t=2, 1x1 threads/Gauss-Seidel i=0  Expected 1.001155 Actual 1.001155
+Test 8d:n=8, t=2, 1x1 threads/Gauss-Seidel i=1  Expected 1.000969 Actual 1.000969
+Test 8d:n=8, t=2, 1x1 threads/Gauss-Seidel i=2  Expected 1.000535 Actual 1.000535
+Test 8d:n=8, t=2, 1x1 threads/Gauss-Seidel i=3  Expected 1.000069 Actual 1.000069
+Test 8d:n=8, t=2, 1x1 threads/Gauss-Seidel i=4  Expected 0.999728 Actual 0.999728
+Test 8d:n=8, t=2, 1x1 threads/Gauss-Seidel i=5  Expected 0.999587 Actual 0.999587
+Test 8d:n=8, t=2, 1x1 threads/Gauss-Seidel i=6  Expected 0.999636 Actual 0.999636
+Test 8d:n=8, t=2, 1x1 threads/Gauss-Seidel i=7  Expected 0.999790 Actual 0.999790
+
+Summary: Failed 0 out of 12 tests
